@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #333333;
+    color: #b3ff00;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4d4d4d;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  .card {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-orange {
+    background-color: #ff6b00;
+  }
+  
+  .card-green {
+    background-color: #b3ff00;
+    color: #1a1a1a;
+  }
+  
+  .skill-tag {
+    display: inline-block;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }

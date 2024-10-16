@@ -1,0 +1,63 @@
+.contact-section {
+    background-color: #1a1a1a;
+    padding: 80px 0;
+}
+
+.container {
+    display: flex; /* Use flexbox for the container */
+    justify-content: space-between; /* Space between header and content */
+}
+
+.contact-header {
+    flex: 1; /* Allow header to take available space */
+}
+
+.contact-title {
+    font-size: 5rem;
+    line-height: 1;
+    margin-bottom: 20px;
+    color: #b3ff00;
+}
+
+.contact-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color: #666666;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: flex-end; /* Keep content aligned to the right */
+    flex: 1; 
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-email {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 2px solid #b3ff00;
+    padding-bottom: 5px;
+    margin-top: 20px;
+
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.fa fa-github{
+    color: #b3ff00;
+
+}
+
+.social-link {
+    display: inline-block;
+    margin-right: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
