@@ -16,7 +16,7 @@
 
   .footer-name {
     font-size: 2rem;
-    color: #b3ff00;
+    color: #F10086;
     margin: 0 0 10px;
   }
 
@@ -39,7 +39,7 @@
   }
 
   .footer-link:hover {
-    color: #b3ff00;
+    color: #711A75;
   }
 
   .footer-link:not(:last-child)::after { 
@@ -58,7 +58,7 @@
   }
 
   .social-icon:hover {
-    color: #b3ff00;
+    color: #711A75;
   }
 
   .open-for-work {
@@ -79,7 +79,7 @@
   .open-for-work-status {
     width: 10px;
     height: 10px;
-    background-color: #b3ff00;
+    background-color: #F10086;
     border-radius: 50%;
     margin-right: 10px;
   }

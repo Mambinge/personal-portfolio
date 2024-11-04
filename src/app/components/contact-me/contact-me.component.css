@@ -16,7 +16,7 @@
     font-size: 5rem;
     line-height: 1;
     margin-bottom: 20px;
-    color: #b3ff00;
+    color: #F10086;
 }
 
 .contact-subtitle {
@@ -39,7 +39,7 @@
     font-size: 1.5rem;
     color: #ffffff;
     text-decoration: none;
-    border-bottom: 2px solid #b3ff00;
+    border-bottom: 2px solid #F10086;
     padding-bottom: 5px;
     margin-top: 20px;
 
@@ -50,7 +50,7 @@
 }
 
 .fa fa-github{
-    color: #b3ff00;
+    color: #711A75;
 
 }
 
