@@ -1,0 +1,18 @@
+<section class="experience-section" @staggerList>
+    <h2 class="section-title">Work Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item" *ngFor="let experience of experiences">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="experience-header">
+            <h3>{{experience.role}}</h3>
+            <span class="company">{{experience.company}}</span>
+            <span class="period">{{experience.period}}</span>
+          </div>
+          <ul class="experience-details">
+            <li *ngFor="let detail of experience.responsibilities">{{detail}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>

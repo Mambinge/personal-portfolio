@@ -1,3 +1,8 @@
+.section{
+  background: rgba(10, 10, 10, 0.8);
+
+}
+
 .hero {
     display: flex;
     align-items: flex-start;
@@ -84,4 +89,5 @@
   .skill-tag {
     background-color:#711A75
   }
+
 

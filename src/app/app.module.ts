@@ -10,6 +10,9 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
+import { VolunteerSectionComponent } from './components/volunteer-section/volunteer-section.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,13 +20,16 @@ import { ProjectsComponent } from './components/projects/projects.component';
     HomeComponent,
     ContactMeComponent,
     FooterComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    WorkExperienceComponent,
+    VolunteerSectionComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    CommonModule
+    CommonModule,
+    BrowserAnimationsModule
   ],
   providers: [
     provideClientHydration()
