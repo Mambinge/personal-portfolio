@@ -90,4 +90,35 @@
     background-color:#711A75
   }
 
+  .cta-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+  .cta-button.primary {
+    background-color: #711A75;
+    color: white;
+  }
+
+  .cta-button.primary:hover {
+    background-color: #bd88c0;
+  }
+
+  .cta-button.secondary {
+    background-color: #F10086;
+    color: white;
+  }
+
+  .cta-button.secondary:hover {
+    background-color: #b9739a;
+  }
+
 
